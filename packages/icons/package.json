@@ -1,0 +1,31 @@
+{
+  "name": "icons",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "LingLing <xialingling0921@gmail.com>",
+  "homepage": "https://github.com/LingLingXia6/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/icons.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LingLingXia6/lerna-demo.git"
+  },
+  "scripts": {
+    "generate": "npx @svgr/cli --out-dir conponent -- svg",
+    "test": "node ./__tests__/icons.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/LingLingXia6/lerna-demo/issues"
+  },
+  "dependencies": {
+    "@svgr/cli": "^8.1.0",
+    "@svgr/core": "^8.1.0"
+  }
+}
